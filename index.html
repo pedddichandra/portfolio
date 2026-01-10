@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S R Deepak | Full Stack & ML Practitioner</title>
+    <meta name="description" content="Portfolio of S R Deepak, a Full-Stack Developer and Machine Learning Practitioner building intelligent, data-driven applications.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-text">
+            <span>Naa</span> <span class="accent">PortFolio...</span> <br> <span>Naa</span> <span class="text-gradient">Istam</span>
+        </div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">SRD<span class="accent">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link" data-i18n="nav_about">About</a></li>
+                <li><a href="#skills" class="nav-link" data-i18n="nav_skills">Skills</a></li>
+                <li><a href="#work" class="nav-link" data-i18n="nav_projects">Projects</a></li>
+                <li><a href="#achievements" class="nav-link" data-i18n="nav_achievements">Achievements</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="lang-dropdown">
+                <button class="lang-btn"><i class="fas fa-globe"></i> <span class="current-lang">EN</span></button>
+                <div class="lang-content">
+                    <a href="#" data-lang="en">English</a>
+                    <a href="#" data-lang="te">Telugu</a>
+                    <a href="#" data-lang="hi">Hindi</a>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-background">
+                <div class="grid-pattern"></div>
+            </div>
+            <div class="container hero-content">
+                <h1 class="hero-title">
+                    <span data-i18n="hero_welcome">Welcome to my</span> <span class="text-gradient" data-i18n="hero_portfolio">Portfolio</span><span data-i18n="hero_welcome_suffix"></span><br>
+                    <!-- <span class="text-gradient-secondary">Systems.</span> -->
+                </h1>
+                <p class="hero-subtitle">
+                    <span data-i18n="hero_intro_1">Hi, I'm</span> <strong class="hero-name" data-i18n="hero_name">S R Deepak</strong>. <span data-i18n="hero_intro_2">A Full-Stack Developer & Machine Learning Practitioner building functional, data-driven applications for the real world.</span>
+                </p>
+                <div class="hero-cta">
+                    <a href="#work" class="btn btn-primary" data-i18n="btn_projects">View Projects</a>
+                    <a href="Resume_27_07.pdf" class="btn btn-outline" download data-i18n="btn_resume">View Resume</a>
+                    <a href="#contact" class="btn btn-outline" data-i18n="btn_contact">Let's Talk</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title"><span data-i18n="about_title">About</span> <span class="accent" data-i18n="about_me">Me</span></h2>
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p class="section-text" data-i18n="about_desc_1">
+                            I am currently pursuing a <strong>B.Tech in Computer Science (AIML)</strong> at Malla Reddy University. I thrive at the intersection of machine learning, web technologies, and real-world problem solving.
+                        </p>
+                        <p class="section-text" data-i18n="about_desc_2">
+                            My work spans from building intelligent chatbots and financial AI systems to healthcare prediction models. I enjoy creating products end-to-end—handling concept, architecture, UI, backend, and ML integration. Currently, I'm focused on developing production-grade digital products with intelligent workflows.
+                        </p>
+                        
+                        <!-- Education Block -->
+                        <div class="education-block" style="margin-top: 2rem;">
+                            <h3 style="margin-bottom: 1rem; color: var(--text-primary);">Education</h3>
+                            <div class="edu-item" style="margin-bottom: 1.5rem; border-left: 2px solid var(--accent-primary); padding-left: 1rem;">
+                                <h4 style="font-size: 1.1rem;">B.Tech, CS (AIML)</h4>
+                                <p style="color: var(--text-secondary); font-size: 0.9rem;">Malla Reddy University (2023–2027)</p>
+                                <p style="color: var(--accent-secondary); font-size: 0.9rem; font-weight: 600;">CGPA: 8.65</p>
+                            </div>
+                            <div class="edu-item" style="border-left: 2px solid var(--accent-secondary); padding-left: 1rem;">
+                                <h4 style="font-size: 1.1rem;">Intermediate (MPC)</h4>
+                                <p style="color: var(--text-secondary); font-size: 0.9rem;">Narayana Junior College</p>
+                                <p style="color: var(--text-secondary); font-size: 0.9rem;">Percentage: 79.7%</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-visual">
+                        <div class="code-card">
+                            <div class="card-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="card-body">
+                                <div class="code-line"><span class="keyword">const</span> <span class="variable">profile</span> = {</div>
+                                <div class="code-line indent">  <span class="property">name</span>: <span class="string">'S R Deepak'</span>,</div>
+                                <div class="code-line indent">  <span class="property">focus</span>: [<span class="string">'Web Dev'</span>, <span class="string">'Machine Learning Engineer'</span>],</div>
+                                <div class="code-line indent">  <span class="property">currentProject</span>: <span class="string">'Personalized Learning Companion'</span>,</div>
+                                <div class="code-line indent">  <span class="property">location</span>: <span class="string">'Hyderabad, India'</span></div>
+                                <div class="code-line">};</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section-title">Technical <span class="accent">Skill Set</span></h2>
+                <div class="skills-wrapper">
+                    <!-- Languages -->
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                            <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks -->
+                    <div class="skill-category">
+                        <h3>Frameworks</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fab fa-react"></i> React.js</span>
+                            <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                            <span class="skill-tag"><i class="fas fa-server"></i> Express.js</span>
+                            <span class="skill-tag"><i class="fab fa-bootstrap"></i> BootStrap</span>
+                        </div>
+                    </div>
+
+                    <!-- AI/ML -->
+                    <div class="skill-category">
+                        <h3>AI/ML</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fas fa-brain"></i> TensorFlow</span>
+                            <span class="skill-tag"><i class="fas fa-table"></i> Pandas</span>
+                            <span class="skill-tag"><i class="fas fa-square-root-alt"></i> NumPy</span>
+                            <span class="skill-tag"><i class="fas fa-flask"></i> Scikit-learn</span>
+                            <span class="skill-tag"><i class="fas fa-robot"></i> Hugging Face</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases & Cloud -->
+                    <div class="skill-category">
+                        <h3>Databases & Cloud</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+                            <span class="skill-tag"><i class="fas fa-leaf"></i> MongoDB</span>
+                            <span class="skill-tag"><i class="fas fa-cloud-upload-alt"></i> Render</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Platforms -->
+                    <div class="skill-category">
+                        <h3>Tools & Platforms</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fab fa-github"></i> Git & GitHub</span>
+                            <span class="skill-tag"><i class="fas fa-code"></i> VSCode</span>
+                            <span class="skill-tag"><i class="fas fa-paper-plane"></i> PostMan</span>
+                        </div>
+                    </div>
+
+                    <!-- Software Engineering -->
+                    <div class="skill-category">
+                        <h3>Software Engineering</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fas fa-project-diagram"></i> Data Structures & Algo</span>
+                            <span class="skill-tag"><i class="fas fa-network-wired"></i> Computer Networks</span>
+                            <span class="skill-tag"><i class="fas fa-cubes"></i> OOPs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="section work">
+            <div class="container">
+                <h2 class="section-title"><span data-i18n="projects_title">Featured</span> <span class="accent" data-i18n="projects_accent">Projects</span></h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image-container">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                            <div class="project-overlay">
+                                <a href="https://github.com/Deepak-chetty/PLC" target="_blank" class="btn-icon"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title" data-i18n="proj_plc_title">Personalized Learning Companion</h3>
+                            <p class="project-description" data-i18n="proj_plc_desc">An intelligent web app integrating React + AI (Gemini LLM) for chatbot support, quiz generation, performance analytics, and user-specific improvement insights.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Gemini LLM</span>
+                                <span>AI</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                     <article class="project-card">
+                        <div class="project-image-container">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);"></div>
+                             <div class="project-overlay">
+                                <a href="https://github.com/Deepak-chetty/Zenith_Hackathon_project" target="_blank" class="btn-icon"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title" data-i18n="proj_heart_title">Heart Disease Prediction</h3>
+                            <p class="project-description" data-i18n="proj_heart_desc">Zenith Hackathon Winner. A machine learning application using Random Forest to classify heart disease risks, featuring a full preprocessing pipeline and interactive UI.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Machine Learning</span>
+                                <span>Random Forest</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section achievements">
+            <div class="container">
+                <h2 class="section-title">Achievements & <span class="accent">Certifications</span></h2>
+                <div class="skills-wrapper"> <!-- Reusing grid layout -->
+                    <div class="skill-category" style="border-left: 4px solid var(--accent-secondary);">
+                        <h3><i class="fas fa-trophy accent"></i> Hackathons</h3>
+                        <ul style="margin-top: 1rem; color: var(--text-secondary); list-style: none;">
+                            <li style="margin-bottom: 1rem;">
+                                <strong style="color: var(--text-primary); display: block;">🏆 Zenith Hackathon (Winner)</strong>
+                                <span style="font-size: 0.9rem;">Heart Disease Prediction App at MLRIT</span>
+                            </li>
+                            <li>
+                                <strong style="color: var(--text-primary); display: block;">🚀 HackVibe (Participant)</strong>
+                                <span style="font-size: 0.9rem;">Vignan Hyderabad</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skill-category" style="border-left: 4px solid var(--accent-primary);">
+                        <h3><i class="fas fa-certificate accent"></i> Apna College</h3>
+                        <ul style="margin-top: 1rem; color: var(--text-secondary); list-style: disc; padding-left: 1.5rem;">
+                            <li style="margin-bottom: 0.5rem;">Certified Full Stack Developer (MERN Stack)</li>
+                            <li>Certified DSA & Algorithms Using Java</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category" style="border-left: 4px solid #fff;">
+                        <h3><i class="fas fa-certificate accent"></i> Certifications</h3>
+                        <ul style="margin-top: 1rem; color: var(--text-secondary); list-style: disc; padding-left: 1.5rem;">
+                            <li style="margin-bottom: 0.5rem;">NPTEL DSA Certificate</li>
+                            <li>Cambridge One Professional English</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2 class="section-title"><span data-i18n="contact_title">Let's</span> <span class="accent" data-i18n="contact_accent">Connect</span></h2>
+                        <p class="section-text" data-i18n="contact_desc">I'm always open to discussing AI-driven systems, FinTech innovations, or new creative opportunities. Feel free to reach out!</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>srdeepak31@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 90147 40947</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Hyderabad, India</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="mailto:srdeepak31@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name" data-i18n="form_name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder=" ">
+                            <label for="email" data-i18n="form_email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" required placeholder=" " rows="5"></textarea>
+                            <label for="message" data-i18n="form_message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-i18n="form_send">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 S R Deepak. Built with AntiGravity.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
