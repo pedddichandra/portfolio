@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
         setTimeout(() => {
             preloader.style.display = 'none';
         }, 800); // Matches CSS transition time
-    }, 2800);
+    }, 3000);
 });
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -189,7 +189,9 @@ document.addEventListener('DOMContentLoaded', () => {
             form_email: "Your Email",
             form_message: "Message",
             form_send: "Send Message",
-            nav_achievements: "Achievements"
+            form_send: "Send Message",
+            nav_achievements: "Achievements",
+            nav_resume: "Resume"
         },
         te: {
             nav_about: "గురించి",
@@ -223,7 +225,8 @@ document.addEventListener('DOMContentLoaded', () => {
             form_email: "మీ ఈమెయిల్",
             form_message: "సందేశం",
             form_send: "సందేశం పంపండి",
-            nav_achievements: "విజయాలు"
+            nav_achievements: "విజయాలు",
+            nav_resume: "రెజ్యూమ్"
         },
         hi: {
             nav_about: "मेरे बारे में",
@@ -257,7 +260,8 @@ document.addEventListener('DOMContentLoaded', () => {
             form_email: "आपका ईमेल",
             form_message: "संदेश",
             form_send: "संदेश भेजें",
-            nav_achievements: "उपलब्धियां"
+            nav_achievements: "उपलब्धियां",
+            nav_resume: "रिज़्यूम"
         }
     };
 

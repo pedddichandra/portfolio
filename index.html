@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S R Deepak | Full Stack & ML Practitioner</title>
+    <title>S R Deepak Portfolio</title>
     <meta name="description" content="Portfolio of S R Deepak, a Full-Stack Developer and Machine Learning Practitioner building intelligent, data-driven applications.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Caveat:wght@400..700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- Preloader -->
     <div id="preloader">
+        <div class="hero-background">
+            <div class="grid-pattern"></div>
+        </div>
         <div class="preloader-text">
-            <span>Naa</span> <span class="accent">PortFolio...</span> <br> <span>Naa</span> <span class="text-gradient">Istam</span>
+            <div class="brand-text" data-text="SRD's Portfolio">SRD's Portfolio</div>
+            <div class="loading-text">Loading<span class="typing-dots"></span></div>
         </div>
     </div>
 
@@ -30,6 +34,7 @@
                 <li><a href="#skills" class="nav-link" data-i18n="nav_skills">Skills</a></li>
                 <li><a href="#work" class="nav-link" data-i18n="nav_projects">Projects</a></li>
                 <li><a href="#achievements" class="nav-link" data-i18n="nav_achievements">Achievements</a></li>
+                <li><a href="#resume" class="nav-link" data-i18n="nav_resume">Resume</a></li>
                 <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
             </ul>
             <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
@@ -66,7 +71,7 @@
                 </p>
                 <div class="hero-cta">
                     <a href="#work" class="btn btn-primary" data-i18n="btn_projects">View Projects</a>
-                    <a href="Resume_27_07.pdf" class="btn btn-outline" download data-i18n="btn_resume">View Resume</a>
+                    <a href="#resume" class="btn btn-outline" data-i18n="btn_resume">View Resume</a>
                     <a href="#contact" class="btn btn-outline" data-i18n="btn_contact">Let's Talk</a>
                 </div>
             </div>
@@ -273,6 +278,19 @@
                             <li>Cambridge One Professional English</li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section resume">
+            <div class="container">
+                <h2 class="section-title">My <span class="accent">Resume</span></h2>
+                <div class="resume-container">
+                    <iframe src="Resume_27_07.pdf" class="resume-frame" title="Resume"></iframe>
+                </div>
+                <div class="resume-actions">
+                     <a href="Resume_27_07.pdf" class="btn btn-primary" download data-i18n="btn_resume">Download Resume</a>
                 </div>
             </div>
         </section>
