@@ -984,6 +984,10 @@ ul {
     .hero-title {
         font-size: 3.5rem;
     }
+
+    .scroll-indicator {
+        display: none !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1005,6 +1009,10 @@ ul {
     
     .section-title {
         font-size: 2.2rem;
+    }
+
+    .scroll-indicator {
+        display: none;
     }
 }
 

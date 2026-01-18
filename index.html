@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Caveat:wght@400..700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
     <!-- Preloader -->
@@ -78,7 +81,7 @@
             </div>
             <div class="hero-image">
                 <div class="img-wrapper">
-                    <img src="assets/profileimg.png" alt="S R Deepak" class="profile-img">
+                    <img src="assets/profileimg.webp" alt="S R Deepak" class="profile-img">
                 </div>
             </div>
         </div>
@@ -215,7 +218,8 @@
                     <!-- Project 1 -->
                     <article class="project-card">
                         <div class="project-image-container">
-                            <div class="placeholder-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                            <!-- <div class="placeholder-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div> -->
+                             <img src="assets/project1.webp" alt="Project 1" class="project-image" loading="lazy">
                             <div class="project-overlay">
                                 <a href="https://github.com/Deepak-chetty/PLC" target="_blank" class="btn-icon"><i class="fab fa-github"></i></a>
                             </div>
@@ -330,15 +334,15 @@
                     </div>
                     <form class="contact-form">
                         <div class="form-group">
-                            <input type="text" id="name" required placeholder=" ">
+                            <input type="text" id="name" name="user_name" required placeholder=" ">
                             <label for="name" data-i18n="form_name">Your Name</label>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" required placeholder=" ">
+                            <input type="email" id="email" name="user_email" required placeholder=" ">
                             <label for="email" data-i18n="form_email">Your Email</label>
                         </div>
                         <div class="form-group">
-                            <textarea id="message" required placeholder=" " rows="5"></textarea>
+                            <textarea id="message" name="message" required placeholder=" " rows="5"></textarea>
                             <label for="message" data-i18n="form_message">Message</label>
                         </div>
                         <button type="submit" class="btn btn-primary" data-i18n="form_send">Send Message</button>
