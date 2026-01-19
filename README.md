@@ -1,10 +1,10 @@
-# S R Deepak's Portfolio
+# Sathvik Peddi's Portfolio
 
-Welcome to the personal portfolio website of S R Deepak, a Full-Stack Developer & Machine Learning Practitioner.
+Welcome to the personal portfolio website of Sathvik Peddi, an Aspiring Data Analyst & Data Scientist.
 
 ## 🚀 Features
 
-- **Responsive Design**: Built with HTML5 and CSS3 (Flebox/Grid) for all screen sizes.
+- **Responsive Design**: Built with HTML5 and CSS3 (Flexbox/Grid) for all screen sizes.
 - **Dark/Light Mode**: Toggleable theme with local storage persistence.
 - **Internationalization (i18n)**: Supports English, Telugu, and Hindi translations.
 - **Contact Form**: Functional contact form powered by [EmailJS](https://www.emailjs.com/).
